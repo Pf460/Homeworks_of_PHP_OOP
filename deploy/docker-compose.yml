@@ -2,7 +2,7 @@ services:
   php-apache:
     build: .
     volumes:
-      - ../php-course:/var/www/html
+      - ../php-course-oop:/var/www/html
       - ./php.ini:/usr/local/etc/php/conf.d/zz-php.ini
       - ./xdebug.ini:/usr/local/etc/php/conf.d/zz-xdebug.ini
     ports:
